@@ -4,3 +4,113 @@
 @charset "utf-8";
 
 @import "bulma";
+
+$bg-color: #f8f8f8;
+$footer-bg-color: #F7F1E3;
+
+$text-color: #47494E;
+$link-color: #BAA754;
+$link-hover-color: #463D1F;
+$footer-link-color: darken($link-color, 25%);
+$footer-link-hover-color: darken($link-hover-color, 25%);
+
+a,
+a:link {
+  color: $link-color;
+  transition: color 0.15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out;
+
+  .icon {
+    > svg {
+      path {
+        fill: $link-color;
+      }
+    }
+  }
+}
+
+a:visited,
+a:active {
+  color: $link-color;
+}
+
+a:hover,
+a:focus {
+  color: $link-hover-color;
+
+  .icon {
+    > svg {
+      path {
+        fill: $link-hover-color;
+      }
+    }
+  }
+}
+
+body,
+.section {
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+.icon {
+  font-size: inherit;
+  line-height: inherit;
+  height: 16px;
+
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+
+    path {
+      fill: $text-color;
+    }
+  }
+}
+
+.site-header {
+  padding: 40px 0 0;
+
+  .separator {
+    color: $text-color;
+  }
+}
+
+.footer {
+  background-color: $footer-bg-color;
+
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    color: $footer-link-color;
+
+    .icon {
+      > svg {
+        path {
+          fill: $footer-link-color;
+        }
+      }
+    }
+  }
+
+  a:hover,
+  a:focus {
+    color: $footer-link-hover-color;
+
+    .icon {
+      > svg {
+        path {
+          fill: $footer-link-hover-color;
+        }
+      }
+    }
+  }
+
+  a:not(.icon),
+  a:visited:not(.icon) {
+    border-bottom: 0;
+  }
+}

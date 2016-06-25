@@ -1,8 +1,16 @@
-<header class="header">
+<header class="header site-header">
   <div class="container">
     <div class="columns">
       <div class="column is-one-third is-offset-2">
-        <a class="title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <a class="title" href="{{ site.baseurl }}/">
+          {{ site.title }}
+        </a>
+        {% if page.title %}
+          <a class="title" href="{{ page.url | prepend: site.baseurl }}">
+            <span class="separator">/</span>
+            {{ page.title }}
+          </a>
+        {% endif %}
       </div>
       <div class="column is-one-third has-text-right">
         <nav class="site-nav">
@@ -11,7 +19,7 @@
               <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
             {% endif %}
           {% endfor %}
-          <a class="page-link" href="https://puppycam.thebikeshed.io/">Webcams</a>
+          <a class="page-link" href="{{ site.webcams_url }}">Webcams</a>
         </nav>
       </div>
     </div>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: space-page
 title: The Space
 permalink: /space/
 ---
@@ -57,12 +57,3 @@ Using the giant table to play games:
 Wall-mounted displays with Raspberry Pi's:
 
 [![Photo of wall-mounted tablet displays](/images/wall-displays-thumb.jpg)](/images/wall-displays.jpeg)
-
-## Features
-
-- Full double - kegerator. [@rick](https://github.com/rick) acquired this beauty from a brewmaster friend who coincidentally also brings by tasty homebrews. We lovingly created a tap handle out of his head with modeling software [@azizshamim](https://github.com/azizshamim) gathered up, and superimposed it on an existing tap handle. Concept to finished product: ~5 hours (includes printing time).
-- 10-foot farm table. Lovingly suppled by [@jameswhite](https://github.com/jameswhite), this custom-made farm table can seat 10, complete with power 🔌 for every person. Early beta-testing shows this is ideal for hacking, drinking 🍻, or playing board games.
-- Philips Hue bulbs in every lamp and window. Currently wired up for a few uses, such as turning orange when someone is in a meeting. More importantly, Disco Mode!
-- 65" Plasma TV for epic beer:30 talks, gaming, or other tomfoolery to be had during the week(-end). (hat tip [@jameswhite](https://github.com/jameswhite) for our epic stand holding up the TV)
-- Raspberry Pi's everywhere! Check out [our dashboards](https://github.com/websages/dashboards-bnagh) that show various metrics/data about the Bikeshed.
-- We also have cameras to check out what's going on in the office from anywhere!
