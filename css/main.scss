@@ -164,6 +164,8 @@ body,
 }
 
 .photo-tiles {
+  align-items: center;
+
   .tile {
     &.is-vertical {
       align-items: center;
