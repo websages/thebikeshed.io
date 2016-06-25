@@ -44,7 +44,15 @@ Traditional printer, MakerBot 3D printer, Keurig coffee maker:
 
 A typical work day:
 
-[![Photo of four guys at work in the Bikeshed](/images/dudes-at-work-thumb.jpg)](/images/dudes-at-work.jpeg)
+[![Photo of four guys seated at desks, at work in the Bikeshed](/images/dudes-at-work-thumb.jpg)](/images/dudes-at-work.jpeg)
+
+Sample usage of the giant table:
+
+[![Photo of more guys working around the large table with laptops](/images/more-dudes-working.jpeg)](/images/more-dudes-working.jpeg)
+
+Using the giant table to play games:
+
+[![Photo of several people standing around the large table playing a tabletop game](/images/playing-games.jpeg)](/images/playing-games.jpeg)
 
 Wall-mounted displays with Raspberry Pi's:
 
