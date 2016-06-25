@@ -1,20 +1,19 @@
 <footer class="footer">
   <div class="container">
     <div class="columns">
-      <div class="column">
-        <h3 class="subtitle has-text-centered">{{ site.title }}</h3>
-        <ul class="contact-list has-text-centered">
+      <div class="column is-offset-1 is-5">
+        <ul class="contact-list">
           {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {% endif %}
           <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe via RSS</a></li>
         </ul>
       </div>
-      <div class="column">
-        <ul class="social-media-list has-text-centered">
+      <div class="column is-5">
+        <ul class="social-media-list has-text-right">
           {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include icon-github.html username=site.github_username text="Visit us on GitHub" %}
           </li>
           {% endif %}
 
@@ -24,9 +23,6 @@
           </li>
           {% endif %}
         </ul>
-      </div>
-      <div class="column has-text-centered">
-        <p>{{ site.description }}</p>
       </div>
     </div>
   </div>
