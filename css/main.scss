@@ -77,7 +77,8 @@ a:focus,
 }
 
 body,
-.section {
+.section,
+.nav {
   background-color: $bg-color;
   color: $text-color;
 }
@@ -149,16 +150,6 @@ body,
   }
 }
 
-.site-nav {
-  a {
-    display: inline-block;
-
-    + a {
-      margin-left: 1em;
-    }
-  }
-}
-
 .photo-link {
   display: block;
 }
@@ -187,6 +178,7 @@ body,
 
 .card.map-card {
   width: 513px;
+  max-width: 100%;
 }
 
 .main-intro-text {
