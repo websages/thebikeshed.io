@@ -2,20 +2,22 @@
 layout: default
 ---
 
-<div class="home">
-  {% include intro.html %}
-  {% if site.posts.size > 0 %}
-    <h2 class="subtitle">Updates</h2>
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="columns">
+  <div class="column is-half is-offset-one-quarter">
+    {% include intro.html %}
+    {% if site.posts.size > 0 %}
+      <h2 class="subtitle">Updates</h2>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
 </div>

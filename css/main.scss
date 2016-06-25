@@ -9,33 +9,58 @@ $bg-color: #f8f8f8;
 $footer-bg-color: #F7F1E3;
 
 $text-color: #47494E;
-$link-color: #BAA754;
+$link-color: darken(#BAA754, 20%);
 $link-hover-color: #463D1F;
-$footer-link-color: darken($link-color, 25%);
-$footer-link-hover-color: darken($link-hover-color, 25%);
+$visited-link-color: darken(#BAA754, 10%);
+$footer-text-color: lighten(#463D1F, 20%);
+$footer-link-color: darken($link-color, 10%);
+$footer-link-hover-color: darken($link-hover-color, 20%);
+
+$color-transition: color 0.15s ease-in-out;
+
+.header a:visited,
+.header a:active {
+  color: $link-color;
+}
 
 a,
 a:link {
   color: $link-color;
-  transition: color 0.15s ease-in-out;
-  -webkit-transition: color 0.15s ease-in-out;
+  transition: $color-transition;
+  -webkit-transition: $color-transition;
 
   .icon {
     > svg {
       path {
         fill: $link-color;
+        transition: fill 0.15s ease-in-out;
+        -webkit-transition: fill 0.15s ease-in-out;
       }
     }
   }
 }
 
 a:visited,
-a:active {
-  color: $link-color;
+a:active,
+.content a:visited,
+.content a:active {
+  color: $visited-link-color;
+
+  .icon {
+    > svg {
+      path {
+        fill: $visited-link-color;
+      }
+    }
+  }
 }
 
 a:hover,
-a:focus {
+a:focus,
+.header a:hover,
+.header a:focus,
+.content a:hover,
+.content a:focus {
   color: $link-hover-color;
 
   .icon {
@@ -45,6 +70,10 @@ a:focus {
       }
     }
   }
+}
+
+.content a {
+  border-bottom: 0;
 }
 
 body,
@@ -81,6 +110,11 @@ body,
 .footer {
   background-color: $footer-bg-color;
 
+  &,
+  .subtitle {
+    color: $footer-text-color;
+  }
+
   a,
   a:link,
   a:visited,
@@ -112,5 +146,15 @@ body,
   a:not(.icon),
   a:visited:not(.icon) {
     border-bottom: 0;
+  }
+}
+
+.site-nav {
+  a {
+    display: inline-block;
+
+    + a {
+      margin-left: 1em;
+    }
   }
 }
