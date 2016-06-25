@@ -158,3 +158,23 @@ body,
     }
   }
 }
+
+.photo-link {
+  display: block;
+}
+
+.photo-tiles {
+  .tile {
+    &.is-vertical {
+      align-items: center;
+
+      > .tile:not(.is-parent) {
+        align-items: center;
+      }
+    }
+
+    &.is-parent {
+      align-items: flex-start;
+    }
+  }
+}
