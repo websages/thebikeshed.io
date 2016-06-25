@@ -3,12 +3,9 @@ layout: default
 ---
 
 <div class="home">
-
   {% include intro.html %}
-
   {% if site.posts.size > 0 %}
     <h1 class="page-heading">Updates</h1>
-
     <ul class="post-list">
       {% for post in site.posts %}
         <li>
@@ -21,7 +18,4 @@ layout: default
       {% endfor %}
     </ul>
   {% endif %}
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>

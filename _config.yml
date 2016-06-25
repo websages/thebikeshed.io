@@ -7,7 +7,7 @@
 
 # Site settings
 title: The Bikeshed
-email: your-email@domain.com
+# email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Coworking space in Nashville, Tennessee.
 baseurl: "" # the subpath of your site, e.g. /blog
