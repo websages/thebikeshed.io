@@ -16,11 +16,26 @@ $footer-text-color: lighten(#463D1F, 20%);
 $footer-link-color: darken($link-color, 10%);
 $footer-link-hover-color: darken($link-hover-color, 20%);
 
+$border-color: #BAA754;
+
 $color-transition: color 0.15s ease-in-out;
 
 .header a:visited,
 .header a:active {
   color: $link-color;
+}
+
+.header .nav-item.is-active,
+.nav-item a.is-tab.is-active,
+a.nav-item.is-tab.is-active {
+  color: $text-color;
+}
+
+.nav-item a.is-tab.is-active,
+a.nav-item.is-tab.is-active,
+.nav-item a.is-tab:hover,
+a.nav-item.is-tab:hover {
+  border-bottom-color: $border-color;
 }
 
 a,
@@ -105,6 +120,12 @@ body,
 
   .separator {
     color: $text-color;
+    display: inline-block;
+    padding-right: 20px;
+  }
+
+  .title {
+    margin-bottom: 0;
   }
 }
 

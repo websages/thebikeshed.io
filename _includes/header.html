@@ -22,10 +22,10 @@
           <div class="nav-right nav-menu">
             {% for my_page in site.pages %}
               {% if my_page.title %}
-                <a class="nav-item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                <a class="is-tab nav-item{% if page.url == my_page.url %} is-active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
               {% endif %}
             {% endfor %}
-            <a class="nav-item" href="{{ site.webcams_url }}">Webcams</a>
+            <a class="is-tab nav-item" href="{{ site.webcams_url }}">Webcams</a>
           </div>
         </nav>
       </div>
