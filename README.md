@@ -7,8 +7,8 @@
 
 ## How to Update thebikeshed.io
 
-- Work in the `master` branch.
-- When you're happy with your changes, run `./deploy.sh` to publish your changes.
+It's a Jekyll site built by GitHub Pages. Just commit your changes and
+`git push origin master`.
 
 ## Design Links
 
