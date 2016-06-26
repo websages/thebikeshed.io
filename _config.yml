@@ -19,7 +19,7 @@ webcams_url: "https://puppycam.thebikeshed.io/"
 # Build settings
 markdown: kramdown
 
-exclude: ["Gemfile", "deploy.sh", "README.md", "Gemfile.lock", ".gitignore"]
+exclude: ["Gemfile", "deploy.sh", "README.md", "Gemfile.lock", ".gitignore", "screenshots"]
 
 # See http://jekyllrb.com/docs/permalinks/
 permalink: /:year/:month/:day/:title/index.html
