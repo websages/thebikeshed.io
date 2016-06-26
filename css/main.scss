@@ -98,6 +98,16 @@ body,
   color: $text-color;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main.section {
+  flex: 1 0 auto;
+}
+
 .icon {
   font-size: inherit;
   line-height: inherit;
