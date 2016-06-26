@@ -237,3 +237,29 @@ main.section {
     margin-right: auto;
   }
 }
+
+@media screen and (max-width: 769px) {
+  .site-header {
+    .nav {
+      align-items: center;
+    }
+
+    .nav-left {
+      flex-direction: column;
+    }
+
+    .nav-item.title {
+      padding-top: 5px;
+      padding-bottom: 5px;
+
+      .separator {
+        display: none;
+      }
+
+      + .nav-item.title {
+        padding-top: 0;
+        font-size: 24px;
+      }
+    }
+  }
+}
