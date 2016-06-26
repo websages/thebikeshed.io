@@ -1,5 +1,7 @@
 # thebikeshed.io
 
+![Screenshot of home page](https://raw.githubusercontent.com/websages/websages.github.io/master/screenshots/home.png)
+
 ## How to Run
 
     bundle install
