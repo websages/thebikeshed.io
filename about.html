@@ -7,34 +7,66 @@ permalink: /about/
 <div class="tile photo-tiles is-vertical">
   <div class="tile">
     <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p>When you arrive, you are greeted with some wonderful signage.</p>
-        <p><a class="photo-link" href="{{ site.baseurl }}/images/github-door.jpeg"><img alt="Photo of Bikeshed door with GitHub logo" src="{{ site.baseurl }}/images/github-door-thumb.jpg"></a></p>
-        Hat tip 🎩
-        {% include icon-github.html username="jameswhite" suffix="'s" %}
-        brother who made these vinyl stickers out of our public media assets
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <a class="photo-link" href="{{ site.baseurl }}/images/github-door.jpeg"><img alt="Photo of Bikeshed door with GitHub logo" src="{{ site.baseurl }}/images/github-door-thumb.jpg"></a></p>
+          </div>
+          <div class="card-content">
+            When you arrive, you are greeted with some wonderful signage.
+            Hat tip 🎩
+            {% include icon-github.html username="jameswhite" suffix="'s" %}
+            brother who made these vinyl stickers out of our public media assets
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="tile is-parent">
-      <div class="tile is-child box">
-        {% include features.html %}
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-header">
+            <p class="card-header-title">Features</p>
+          </div>
+          <div class="card-content">
+            <ul>
+              <li>Full double - kegerator. {% include icon-github.html username="rick" %} acquired this beauty from a brewmaster friend who coincidentally also brings by tasty homebrews. We lovingly created a tap handle out of his head with modeling software {% include icon-github.html username="azizshamim" %} gathered up, and superimposed it on an existing tap handle. Concept to finished product: ~5 hours (includes printing time).</li>
+              <li>10-foot farm table. Lovingly suppled by {% include icon-github.html username="jameswhite" %}, this custom-made farm table can seat 10, complete with power 🔌 for every person. Early beta-testing shows this is ideal for hacking, drinking 🍻, or playing board games.</li>
+              <li>Philips Hue bulbs in every lamp and window. Currently wired up for a few uses, such as turning orange when someone is in a meeting. More importantly, Disco Mode!</li>
+              <li>65" Plasma TV for epic beer:30 talks, gaming, or other tomfoolery to be had during the week(-end). (hat tip jameswhite for our epic stand holding up the TV)</li>
+              <li>Raspberry Pi's everywhere! Check out <a href="{{ site.baseurl }}/dashboards/">our dashboards</a> that show various metrics/data about the Bikeshed.</li>
+              <li>We also have cameras to check out what's going on in the office from anywhere!</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="tile">
     <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p>Complete with conference room:</p>
-        <a class="photo-link" href="{{ site.baseurl }}/images/conference-room.jpeg"><img alt="Photo of the conference room with table and chairs" src="{{ site.baseurl }}/images/conference-room-thumb.jpg"></a>
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <a class="photo-link" href="{{ site.baseurl }}/images/conference-room.jpeg"><img alt="Photo of the conference room with table and chairs" src="{{ site.baseurl }}/images/conference-room-thumb.jpg"></a>
+          </div>
+          <div class="card-content">
+            No coworking space would be complete without a conference room.
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p>Doorway into our space.</p>
-        <a class="photo-link" href="{{ site.baseurl }}/images/octocat-door.jpeg"><img alt="Photo of a solid door with a GitHub octocat sticker on it" src="{{ site.baseurl }}/images/octocat-door-thumb.jpg"></a>
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <a class="photo-link" href="{{ site.baseurl }}/images/octocat-door.jpeg"><img alt="Photo of a solid door with a GitHub octocat sticker on it" src="{{ site.baseurl }}/images/octocat-door-thumb.jpg"></a>
+          </div>
+          <div class="card-content">
+            <p>Doorway into our space.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -42,79 +74,139 @@ permalink: /about/
   <div class="tile">
     <div class="tile is-vertical is-8">
       <div class="tile is-parent">
-        <div class="tile is-child box">
-          <p>...which opens up into the common area of the coworking space.</p>
-          <a class="photo-link" href="{{ site.baseurl }}/images/coworking-pano.jpeg"><img alt="Panorama photo of the Bikeshed coworking area" src="{{ site.baseurl }}/images/coworking-pano-thumb.jpg"></a>
+        <div class="tile is-child">
+          <div class="card is-fullwidth">
+            <div class="card-image">
+              <a class="photo-link" href="{{ site.baseurl }}/images/coworking-pano.jpeg"><img alt="Panorama photo of the Bikeshed coworking area" src="{{ site.baseurl }}/images/coworking-pano-thumb.jpg"></a>
+            </div>
+            <div class="card-content">
+              The common area of the coworking space.
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="tile is-parent">
-        <div class="tile is-child box">
-          <p>The Bikeshed's main work area:</p>
-          <a class="photo-link" href="{{ site.baseurl }}/images/desk-space.jpeg"><img alt="Panoramic photo of the main Bikeshed space with desks, table, bike, and computers" src="{{ site.baseurl }}/images/desk-space-thumb.jpg"></a>
+        <div class="tile is-child">
+          <div class="card is-fullwidth">
+            <div class="card-image">
+              <a class="photo-link" href="{{ site.baseurl }}/images/desk-space.jpeg"><img alt="Panoramic photo of the main Bikeshed space with desks, table, bike, and computers" src="{{ site.baseurl }}/images/desk-space-thumb.jpg"></a>
+            </div>
+            <div class="card-content">
+              The Bikeshed's main work area.
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p>Double tap kegerator:</p>
-        <a class="photo-link" href="{{ site.baseurl }}/images/keg.jpeg"><img alt="Photo of a double tap kegerator" src="{{ site.baseurl }}/images/keg-thumb.jpg"></a>
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <a class="photo-link" href="{{ site.baseurl }}/images/keg.jpeg"><img alt="Photo of a double tap kegerator" src="{{ site.baseurl }}/images/keg-thumb.jpg"></a>
+          </div>
+          <div class="card-content">
+            Double tap kegerator.
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="tile">
     <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p>Our giant table that seats ten:</p>
-        <a class="photo-link" href="{{ site.baseurl }}/images/table.jpeg"><img alt="The big wooden plank table at the Bikeshed" src="{{ site.baseurl }}/images/table-thumb.jpg"></a>
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <a class="photo-link" href="{{ site.baseurl }}/images/table.jpeg"><img alt="The big wooden plank table at the Bikeshed" src="{{ site.baseurl }}/images/table-thumb.jpg"></a>
+          </div>
+          <div class="card-content">
+            Our giant table that seats ten.
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p>The table has power plugs lining it:</p>
-        <a class="photo-link" href="{{ site.baseurl }}/images/table-power.jpeg"><img alt="Photo of the power outlets lining the underside of the giant table" src="{{ site.baseurl }}/images/table-power-thumb.jpg"></a>
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <a class="photo-link" href="{{ site.baseurl }}/images/table-power.jpeg"><img alt="Photo of the power outlets lining the underside of the giant table" src="{{ site.baseurl }}/images/table-power-thumb.jpg"></a>
+          </div>
+          <div class="card-content">
+            The table has power plugs lining it.
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="tile is-parent">
-    <div class="tile is-child box">
-      <p>A typical work day:</p>
-      <a class="photo-link" href="{{ site.baseurl }}/images/dudes-at-work.jpeg"><img alt="Photo of four guys seated at desks, at work in the Bikeshed" src="{{ site.baseurl }}/images/dudes-at-work-thumb.jpg"></a>
-    </div>
-  </div>
-
-  <div class="tile">
-    <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p>Wall-mounted displays with Raspberry Pi's:</p>
-        <a class="photo-link" href="{{ site.baseurl }}/images/wall-displays.jpeg"><img alt="Photo of wall-mounted tablet displays" src="{{ site.baseurl }}/images/wall-displays-thumb.jpg"></a>
-      </div>
-    </div>
-
-    <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p>Traditional printer, MakerBot 3D printer, Keurig coffee maker:</p>
-        <a class="photo-link" href="{{ site.baseurl }}/images/printers.jpeg"><img alt="Photo of printer, MakerBot 3D printer, Keurig, and foosball table" src="{{ site.baseurl }}/images/printers-thumb.jpg"></a>
+    <div class="tile is-child">
+      <div class="card is-fullwidth">
+        <div class="card-image">
+          <a class="photo-link" href="{{ site.baseurl }}/images/dudes-at-work.jpeg"><img alt="Photo of four guys seated at desks, at work in the Bikeshed" src="{{ site.baseurl }}/images/dudes-at-work-thumb.jpg"></a>
+        </div>
+        <div class="card-content">
+          A typical work day.
+        </div>
       </div>
     </div>
   </div>
 
   <div class="tile">
     <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p>Only nine people are shown, but the table can definitely seat more:</p>
-        <a class="photo-link" href="{{ site.baseurl }}/images/more-dudes-working.jpeg"><img alt="Photo of more guys working around the large table with laptops" src="{{ site.baseurl }}/images/more-dudes-working.jpeg"></a>
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <a class="photo-link" href="{{ site.baseurl }}/images/wall-displays.jpeg"><img alt="Photo of wall-mounted tablet displays" src="{{ site.baseurl }}/images/wall-displays-thumb.jpg"></a>
+          </div>
+          <div class="card-content">
+            Wall-mounted displays with Raspberry Pi's.
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p>Using the giant table to play games:</p>
-        <a class="photo-link" href="{{ site.baseurl }}/images/playing-games.jpeg"><img alt="Photo of several people standing around the large table playing a tabletop game" src="{{ site.baseurl }}/images/playing-games.jpeg"></a>
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <a class="photo-link" href="{{ site.baseurl }}/images/printers.jpeg"><img alt="Photo of printer, MakerBot 3D printer, Keurig, and foosball table" src="{{ site.baseurl }}/images/printers-thumb.jpg"></a>
+          </div>
+          <div class="card-content">
+            Traditional printer, MakerBot 3D printer, and Keurig coffee maker.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tile">
+    <div class="tile is-parent">
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <a class="photo-link" href="{{ site.baseurl }}/images/more-dudes-working.jpeg"><img alt="Photo of more guys working around the large table with laptops" src="{{ site.baseurl }}/images/more-dudes-working.jpeg"></a>
+          </div>
+          <div class="card-content">
+            Only nine people are shown, but the table can definitely seat more.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child">
+        <div class="card is-fullwidth">
+          <div class="card-image">
+            <a class="photo-link" href="{{ site.baseurl }}/images/playing-games.jpeg"><img alt="Photo of several people standing around the large table playing a tabletop game" src="{{ site.baseurl }}/images/playing-games.jpeg"></a>
+          </div>
+          <div class="card-content">
+            Using the giant table to play games.
+          </div>
+        </div>
       </div>
     </div>
   </div>
