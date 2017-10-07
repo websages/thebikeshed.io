@@ -140,6 +140,10 @@ main.section {
 .site-header {
   padding: 40px 0 0;
 
+  .nav-item img {
+    max-height: 75px;
+  }
+
   .separator {
     color: $text-color;
     display: inline-block;
@@ -246,6 +250,10 @@ main.section {
 
     .nav-left {
       flex-direction: column;
+    }
+
+    .nav-item img {
+      max-height: 50px;
     }
 
     .nav-item.title {
