@@ -5,14 +5,8 @@
         <nav class="nav">
           <div class="nav-left">
             <a class="nav-item title" href="{{ site.baseurl }}/">
-              {{ site.title }}
+              <img src="{{ '/images/bikeshed-letterhead.svg' }}" alt="{{ site.title }}" />
             </a>
-            {% if page.title %}
-              <a class="nav-item title" href="{{ page.url | prepend: site.baseurl }}">
-                <span class="separator">/</span>
-                {{ page.title }}
-              </a>
-            {% endif %}
           </div>
           <a class="nav-toggle" href="#">
             <span></span>
